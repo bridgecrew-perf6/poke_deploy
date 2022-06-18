@@ -1,0 +1,92 @@
+/* 상단 넘버 + 이름*/
+html {
+width : 2100px;
+  height: 2970px;
+  }
+
+p{
+margin:0px;
+}
+body {
+margin:0px;
+  width : 2100px;
+  height: 2970px;
+}
+
+#poke_head {
+border: 1px;
+display: inline-block;
+border-style: solid;
+
+/*border:10px;*/
+background-color: white;
+border-radius: 30px;
+margin : 30px 0px 30px 20px;
+border-color: rgba(112,112,112,1);
+
+}
+
+.name{
+display: inline-block;
+font-size: 30px;
+/*line-height: 30px;*/
+margin:0px 15px 0px 0px;
+  font-weight: bold;
+  max-width : 200px;
+}
+.number {
+  font-size: 30px;
+/*  line-height: 30px;*/
+  font-weight: bold;
+  width : 80px;
+  border-radius: 30px;
+  text-align: center;
+
+  display: inline-block;
+}
+/*중간*/
+img {
+ max-width: 100%;
+ max-height: 100%;
+}
+
+#pk_img {
+  text-align: center;
+  padding: 10px 0px;
+  width: 300px;
+  margin-left: 40px;
+  }
+
+
+#pk_logo {
+height:40px;
+margin-left: 200px;
+}
+
+/*띠뿌띠뿌씰 스타일*/
+#artboard {
+  width : 2100px;
+  height: 2970px;
+  background-color: white;
+  border: 1px;
+  border-style: solid;
+  border-color: rgba(112,112,112,1);
+  /*text-align: center;*/
+  /*padding: 300px 0px;*/
+}
+
+#group {
+  margin: 150px 70px;
+}
+
+#seal {
+  width : 380px;
+  height: 500px;
+  background-color: white;
+  border: 1px;
+  border-style: solid;
+  border-color: rgba(112,112,112,1);
+  display: inline-block;
+  margin-right: -4px;
+
+}

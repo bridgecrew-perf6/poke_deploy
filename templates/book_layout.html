@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+	<link rel="stylesheet" href="../static/css/pokemon_style.css">
+</head>
+<body>
+    <div id="artboard">
+		<div id="group">
+		{%for file in onlyfiles_slice:%}
+		<div id="seal">
+			<div id="poke_head">
+				<p class ="number" style="background-color: rgb{{poke[file]}}">{{file[3:6]}}</p>
+				<p class = "name">{{new_onlyfiles_2[onlyfiles_slice.index(file)].replace(".png","")[7:]}}</p>
+			</div>
+			<div id="pk_img">
+				<img  src="../static/image/{{file}}">
+			</div>
+
+			<div id="pk_logo">
+				<img  src="../static/poke_logo.png">
+			</div>
+		</div>
+		{%endfor%}
+		</div>
+
+
+	</div>
+</body>
+</html>
